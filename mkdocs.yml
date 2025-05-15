@@ -1,0 +1,92 @@
+site_name: analytics-docs
+edit_uri: 
+  https://github.com/grupoboticario/analytics-markdown-generator-backstage/edit/main/docs/
+
+plugins:
+- techdocs-core
+- kroki:
+    ServerURL: https://alquimia-api.gb.tech/api/proxy/kroki
+    FencePrefix: ''
+
+nav:
+- Home: README.md
+- Guides:
+  - Adobe Target: guides/adobe-target.md
+  - Autotagging Flora: guides/autotagging-flora.md
+  - Medium URL: guides/medium-url.md
+  - Tagueamento Eventos Ecomm: guides/tagueamento_ecomm.md
+  - SmartCode VWO: guides/vwo-smartcode.md
+  - Métricas Essenciais GA4 + BQ: guides/metricas-ga4-bq.md
+- Tagbooks:
+  - Geral:
+    - Eventos Ecommerce Avançado: tagbooks/docs-tecnica_eventos-ecommerce-avancado.md
+    - Eventos Ecommerce Avançado Atualizada 2025: tagbooks/docs-tecnica_eventos-ecommerce-avancado-atualizado.md
+  - VS Ecomm:
+    - Ecommerce Plataforma GB Web: tagbooks/docs-tecnica_plataforma-gb.md
+    - Ecommerce Plataforma GB GA4 New: tagbooks/docs-tecnica_plataforma-gb-ga4-new.md
+    - Platf. Logistica: tagbooks/docs-tecnica_sistemas-internos---plataforma-logistica.md
+    - Backoffice CMS: tagbooks/docs-tecnica_backoffice-cms.md
+    - Dia do Amor: tagbooks/docs-tecnica_dia-do-amor.md
+  - VS Venda Direta:
+    - Minha Loja Boticario: tagbooks/docs-tecnica_mld-bot.md
+    - Minha Loja Eudora: tagbooks/docs-tecnica_mld-eud.md
+    - VD Interativa: tagbooks/docs-tecnica_vd-interativa.md
+    - Encontre Boticario: tagbooks/docs-tecnica_encontre-boticario.md
+    - MLD Grupo Boticario: tagbooks/docs-tecnica_mld-grupo-boticario-(pagina-de-links).md
+    - FVC Boticario: tagbooks/docs-tecnica_fvc-boticario.md
+    - FVC Eudora: tagbooks/docs-tecnica_fvc-eudora.md
+  - VS B2B:
+    - Portal de vendas:
+      - Pedido sugerido: tagbooks/docs-tecnica_b2b_portal-de-vendas-pedido-sugerido.md
+    - Conecta:
+      - Cancelamento de solicitações: tagbooks/doc-tecnica_conectab2b-cancelamento-solicitacoes.md
+  - VS Franqueado:
+    - Extranet:
+      - Extranet Geral: tagbooks/docs-tecnica_extranet-boticario.md
+      - Extranet Caas - Visão Franqueado: tagbooks/docs-tecnica_extranet-caas-franqueado.md
+      - Extranet Caas - Visão Operação: tagbooks/docs-tecnica_extranet-caas-operacao.md
+    - Projeto Bussola: tagbooks/docs-tecnica_bussola.md
+    - OMS: tagbooks/docs-tecnica_oms.md
+    - GDEM: tagbooks/docs-tecnica_gdem.md
+    - Retaguarda GB:
+      - Estoque:
+        - Exportação massiva de relatórios: tagbooks/docs-tecnica_estoquegb-exportacao-massiva-inventarios.md
+        - Desligamento pedidos de compras: tagbooks/docs-tecnica_estoquegb-pedido-de-compra.md
+      - Fiscal:
+        - Entrada de nota de compra: tagbooks/docs-tecnica_retaguarda-gb-fluxo-de-entrada-de-nota-de-compra.md
+      - Vendas:
+        - Consulta e cadastro de metas: tagbooks/doc-tecnica_retaguarda-gb-consulta-cadastro-metas.md
+        - Consulta gerencial de vendas: tagbooks/doc-tecnica_retaguarda-gb-consulta-gerencial-vendas.md
+  - VS Colaborador:
+    - EducaOn: tagbooks/docs-tecnica_educa-on.md
+    - Click GB: tagbooks/docs-tecnica_click-gb.md
+  - VS Consumidor:
+    - Loja Digital: tagbooks/docs-tecnica_loja-digital.md
+    - Agendamento Servicos To Que To: tagbooks/docs-tecnica_agendamento-to-que-to.md
+    - Figital: tagbooks/docs-tecnica_figital.md
+    - Novo Clube de Fidelidade: tagbooks/docs-tecnica_novo-clube-de-fidelidade.md
+    - Dash das Consultoras (Mobshop): tagbooks/docs-tecnica_plataforma-agendamento-mobshop.md
+    - Backoffice agendamento: tagbooks/docs-tecnica_backoffice-agendamento.md
+  - VS Marketplace:
+    - Portal do Seller: tagbooks/docs-tecnica_portal-do-seller.md
+    - Portal do Seller GA4: tagbooks/docs-tecnica_portal-do-seller-GA4.md
+    - Socialcommerce: tagbooks/docs-tecnica_socialcommerce.md
+    - Venda em BLZ: tagbooks/docs-tecnica_venda-em-blz.md
+  - VS Profissionais:
+    - Salao 99 - Portal Negócio: tagbooks/docs-tecnica_salao-99.md
+    - Salao 99 - Portal Clientes: tagbooks/docs-tecnica_salao-99-portal-clientes-B2C.md
+    - Educa BLZ Pro: tagbooks/docs-tecnica_educa_blz_pro.md
+    - Truss Academy: tagbooks/docs-tecnica_truss_academy.md
+  - Sistemas Internos:
+    - Alquimia: tagbooks/docs-tecnica-alquimia.md
+    - Catalogo de Dados: tagbooks/docs-tecnica_catalogo-de-dados.md
+    - Portal de Doacoes: tagbooks/docs-tecnica_portal-de-doacoes.md
+    - Backoffice platg.gb: tagbooks/docs-tecnica_backoffice-platfgb.md
+  - CH PDF:
+    - Programa Facilita: tagbooks/docs-tecnica_programa-facilita.md
+    - Checkout  - Loja Digital: tagbooks/docs-tecnica_checkout_loja_digital.md
+  - Internacional:
+    - Shopify: tagbooks/docs-tecnica_shopify.md
+- Martech Analytics (TagGB):
+  - VS Teste:
+    - App teste: tagbooks/docs-tecnica_app-teste.md

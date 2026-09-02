@@ -1,13 +1,11 @@
 site_name: analytics-docs
-edit_uri: 
-  https://github.com/grupoboticario/analytics-markdown-generator-backstage/edit/main/docs/
+edit_uri: https://github.com/grupoboticario/analytics-markdown-generator-backstage/edit/main/docs/
 
 plugins:
 - techdocs-core
 - kroki:
     ServerURL: https://alquimia-api.gb.tech/api/proxy/kroki
     FencePrefix: ''
-
 nav:
 - Home: README.md
 - Guides:
@@ -90,3 +88,6 @@ nav:
 - Martech Analytics (TagGB):
   - VS Teste:
     - App teste: tagbooks/docs-tecnica_app-teste.md
+  - CH Tecnologia:
+    - Tag GB:
+      - fluxo: tagbooks/docs-tecnica_ch-tecnologia_tag-gb_fluxo_web.md
